@@ -1,3 +1,3 @@
-# R&planning
+# R&Planning
 
 Projeto para organizar a documentação
