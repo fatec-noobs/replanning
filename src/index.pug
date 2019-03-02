@@ -36,10 +36,9 @@ html(lang='pt-br')
       gtag('config', '#{data.ga}');
   body
     include components/header/header.pug
-    main.col.s9
-      ul.row
-        each val in [1, 2, 3, 4, 5]
-          li.col.s12.m6
-            include components/card/card.pug
+    main.container: ul.row
+      each val in [1, 2, 3, 4, 5]
+        li.col.m6.l4
+          include components/card/card.pug
     include components/footer/footer.pug
 
