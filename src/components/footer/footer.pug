@@ -1,20 +1,16 @@
 - var css = require('./footer-css.json');
 
 footer.page-footer
-  .container
-    .row
-      .col.l6.s12
-        h5.white-text Footer Content
-        p.grey-text.text-lighten-4 You can use rows and columns here to organize your footer content.
-      .col.l4.offset-l2.s12
-        h5.white-textL inks
-        ul
-          li: a(class='grey-text text-lighten-3' href='#!') Link 1
-          li: a(class='grey-text text-lighten-3' href='#!') Link 2
-          li: a(class='grey-text text-lighten-3' href='#!') Link 3
-          li: a(class='grey-text text-lighten-3' href='#!') Link 4
-  .footer-copyright
-    .container
-      span © 2014 Copyright Text
-      a(class='grey-text text-lighten-4 right' href='#!') More Links
+  .container: .row
+    .col.l6.s12
+      h5.white-text R&Planning
+      p.grey-text.text-lighten-4 Project to organize application documentation
+    .col.l4.offset-l2.s12
+      h5.white-textL Links
+      ul
+        li: a(class='grey-text text-lighten-3' href='#!') Sistema de informação
+        li: a(class='grey-text text-lighten-3' href='#!') Engenharia de software
+  .footer-copyright: .container
+    a.grey-text.text-lighten-4.right(href='https://github.com/fatec-noobs' target='_blank').
+      © 2019 Copyright fatec-noobs
 
