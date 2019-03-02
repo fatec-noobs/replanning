@@ -6,8 +6,8 @@
 
 > Project to organize application documentation
 
-[![license](https://img.shields.io/github/license/vitebo/awesome-project.svg)](./license.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/vitebo/awesome-project.svg)](https://github.com/vitebo/awesome-project/graphs/contributors)
+[![license](https://img.shields.io/github/license/fatec-noobs/replanning_doc.svg)](./license.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/fatec-noobs/replanning_doc.svg)](https://github.com/vitebo/awesome-project/graphs/contributors)
 
 ## Getting Started
 
