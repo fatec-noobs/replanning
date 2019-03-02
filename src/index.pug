@@ -5,6 +5,7 @@ html(lang='en')
   head
     title #{data.title} - #{data.description}
     meta(charset='utf-8')
+    meta(content='width=device-width, initial-scale=1' name='viewport')
     meta(name='description' content=data.description)
     meta(name='image' content=data.url + data.logo) 
     meta(itemprop='name' content=data.title)
@@ -37,12 +38,10 @@ html(lang='en')
       gtag('config', '#{data.ga}');
   body
     include components/header/header.pug
-    .row
-      include components/aside/aside.pug
-      main.col.s9
-        ul.row
-          li.col.s12.m6
-            include components/card/card.pug
+    main.col.s9
+      ul.row
+        li.col.s12.m6
+          include components/card/card.pug
     include components/footer/footer.pug
     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js')
 
