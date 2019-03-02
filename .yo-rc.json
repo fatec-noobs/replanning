@@ -1,0 +1,10 @@
+{
+  "generator-kratos-boilerplate": {
+    "promptValues": {
+      "name": "vitebo",
+      "email": "vitebo@hotmail.com",
+      "github": "vitebo",
+      "twitter": "vitebo"
+    }
+  }
+}
