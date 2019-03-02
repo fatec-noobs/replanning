@@ -7,7 +7,6 @@
 > Project to organize application documentation
 
 [![license](https://img.shields.io/github/license/fatec-noobs/replanning_doc.svg)](./license.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/fatec-noobs/replanning_doc.svg)](https://github.com/fatec-noobs/replanning_doc/graphs/contributors)
 
 ## Getting Started
 
