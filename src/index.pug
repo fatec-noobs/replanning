@@ -38,7 +38,8 @@ html(lang='pt-br')
     include components/header/header.pug
     main.col.s9
       ul.row
-        li.col.s12.m6
-          include components/card/card.pug
+        each val in [1, 2, 3, 4, 5]
+          li.col.s12.m6
+            include components/card/card.pug
     include components/footer/footer.pug
 

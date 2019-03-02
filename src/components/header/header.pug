@@ -1,19 +1,21 @@
 - var css = require('./header-css.json');
 
-nav: .nav-wrapper
-  a.sidenav-trigger(href='#' data-target='slide-out')
-    i.material-icons menu
-  a.brand-logo(href='#') R&Planning
-  ul#nav-mobile.right.hide-on-med-and-down
+header
+  .navbar-fixed
+    nav: .nav-wrapper
+      a.sidenav-trigger(href='#' data-target='slide-out')
+        i.material-icons menu
+      a.brand-logo(href='#') R&Planning
+      ul#nav-mobile.right.hide-on-med-and-down
+        li: a(href='sass.html') Sistema de informação
+        li: a(href='badges.html') Engenharia de software
+  ul#slide-out.sidenav
+    li: .user-view
+      .background
+        img(src='https://materializecss.com/images/office.jpg')
+      a(href='#user'): img.circle(src='https://materializecss.com/images/yuna.jpg')
+      a(href='#name'): span.white-text.name R&Planning
+      a(href='#email'): span.white-text.email rplanning@gmail.com
     li: a(href='sass.html') Sistema de informação
     li: a(href='badges.html') Engenharia de software
-ul#slide-out.sidenav
-  li: .user-view
-    .background
-      img(src='https://materializecss.com/images/office.jpg')
-    a(href='#user'): img.circle(src='https://materializecss.com/images/yuna.jpg')
-    a(href='#name'): span.white-text.name R&Planning
-    a(href='#email'): span.white-text.email rplanning@gmail.com
-  li: a(href='sass.html') Sistema de informação
-  li: a(href='badges.html') Engenharia de software
 
