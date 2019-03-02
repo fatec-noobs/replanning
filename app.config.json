@@ -1,10 +1,9 @@
 {
 	"title": "R&Planning",
 	"description": "Project to organize application documentation",
-	"url": "https://github.com/fatec-noobs/replanning_doc",
+	"url": "https://github.com/fatec-noobs/rplanning_doc",
 	"logo": "images/logo.png",
 	"theme_color": "#333333",
 	"short_name": "R&Planning",
-	"ga": "x",
-	"twitter": "@vitebo"
+	"ga": "x"
 }

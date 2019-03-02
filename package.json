@@ -1,15 +1,15 @@
 {
-  "name": "fatec-noobs",
+  "name": "rplanning_doc",
   "version": "0.0.1",
   "title": "rplanning_doc",
   "description": "Project to organize application documentation",
-  "homepage": "https://github.com/vitebo/awesome-project",
+  "homepage": "https://fatec-noobs.github.io/rplanning_doc/",
   "browserslist": [
     "> 1%",
     "last 2 versions"
   ],
   "author": {
-    "name": "vitebo",
+    "name": "fatec-noobs",
     "email": "vitebo@hotmail.com"
   },
   "scripts": {

@@ -6,7 +6,7 @@
 
 > Project to organize application documentation
 
-[![license](https://img.shields.io/github/license/fatec-noobs/replanning_doc.svg)](./license.md)
+[![license](https://img.shields.io/github/license/fatec-noobs/rplanning_doc.svg)](./license.md)
 
 ## Getting Started
 
