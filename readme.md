@@ -33,4 +33,4 @@ This project was generated using the [Kratos Boilerplate](https://github.com/LFe
 
 ## License
 
-MIT License © vitebo
+MIT License © fatec-noobs
