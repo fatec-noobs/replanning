@@ -49,7 +49,6 @@ const baseWebpack = {
     app: './src/app.js'
   },
   output: {
-    publicPath: '/',
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
   },
@@ -100,7 +99,7 @@ const baseWebpack = {
       template: './src/index.pug'
     }), 
     new MiniCssExtractPlugin({
-      filename: 'rplanning_doc/style.[contenthash].css',
+      filename: 'style.[contenthash].css',
     }),
     new CopyWebpackPlugin(copyFiles)
   ]
@@ -110,6 +109,7 @@ const prodStart = () => {
   baseWebpack.optimization = {
     minimizer: [ new UglifyJsPlugin() ],
   }; 
+  baseWebpack.output = { publicPath: '/rplanning_doc/' };
   baseWebpack.plugins.push(new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }));
   baseWebpack.plugins.push(new BundleAnalyzerPlugin({analyzerMode: 'disabled'})); 
   baseWebpack.plugins.push(new WebpackPwaManifest(webapp));
@@ -117,6 +117,7 @@ const prodStart = () => {
 };
 
 const devStart = () => {
+  baseWebpack.output = { publicPath: '/' },
   baseWebpack.devServer = {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
