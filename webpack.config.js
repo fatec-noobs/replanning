@@ -100,7 +100,7 @@ const baseWebpack = {
       template: './src/index.pug'
     }), 
     new MiniCssExtractPlugin({
-      filename: 'style.[contenthash].css',
+      filename: 'rplanning_doc/style.[contenthash].css',
     }),
     new CopyWebpackPlugin(copyFiles)
   ]
