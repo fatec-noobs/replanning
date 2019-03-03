@@ -109,7 +109,7 @@ const prodStart = () => {
   baseWebpack.optimization = {
     minimizer: [ new UglifyJsPlugin() ],
   }; 
-  baseWebpack.output = { publicPath: '/rplanning_doc/' };
+  baseWebpack.output = { publicPath: '/fatec-noobs/rplanning_doc/' };
   baseWebpack.plugins.push(new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }));
   baseWebpack.plugins.push(new BundleAnalyzerPlugin({analyzerMode: 'disabled'})); 
   baseWebpack.plugins.push(new WebpackPwaManifest(webapp));
