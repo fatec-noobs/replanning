@@ -28,6 +28,7 @@ const webapp = {
 
 const copyFiles = [ 
   { from: './src/images/', to: './images' },
+  { from: './src/docs/', to: './docs' },
   { from: './src/favicon.ico', to: './' },
 ];
  
