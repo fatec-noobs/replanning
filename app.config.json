@@ -5,5 +5,13 @@
 	"logo": "images/logo.png",
 	"theme_color": "#333333",
 	"short_name": "R&Planning",
-	"ga": "x"
+	"ga": "x",
+  "docs": [
+    {
+      "date": "01/02/2019",
+      "description": "I am a very simple card. I am good at containing small bits of information.",
+      "file_name": "2019_02_26",
+      "types": ["docx", "pptx"]
+    }
+  ]
 }
