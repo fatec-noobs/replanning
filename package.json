@@ -62,6 +62,7 @@
     "rupture-sass": "^0.3.0",
     "sass-lint": "^1.12.1",
     "sass-loader": "^7.1.0",
+    "senna": "^2.7.4",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
