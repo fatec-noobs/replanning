@@ -1,0 +1,12 @@
+- var data = require('../../../app.config.json');
+
+ul.row
+  each doc in data.docs
+    li.col.m6.l4.card
+      .card-content
+        span.card-title #{doc.date}
+        p #{doc.description}
+      footer.card-action
+        each type in doc.types
+          a(href=`docs/2019_02_26.${type}`) #{type}
+

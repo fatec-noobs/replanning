@@ -36,9 +36,7 @@ html(lang='pt-br')
       gtag('config', '#{data.ga}');
   body
     include components/header/header.pug
-    main.container: ul.row
-      each doc in data.docs
-        li.col.m6.l4
-          include components/card/card.pug
+    main.container
+      include components/cards/cards.pug
     include components/footer/footer.pug
 

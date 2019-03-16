@@ -1,11 +1,11 @@
 {
-	"title": "R&Planning",
-	"description": "Project to organize application documentation",
-	"url": "https://github.com/fatec-noobs/rplanning_doc",
-	"logo": "images/logo.png",
-	"theme_color": "#333333",
-	"short_name": "R&Planning",
-	"ga": "x",
+  "title": "R&Planning",
+  "description": "Project to organize application documentation",
+  "url": "https://github.com/fatec-noobs/rplanning_doc",
+  "logo": "images/logo.png",
+  "theme_color": "#333333",
+  "short_name": "R&Planning",
+  "ga": "x",
   "docs": [
     {
       "date": "01/02/2019",
