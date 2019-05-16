@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/rplanning_doc/icon_512x512.00302f6b52506bc91ded6245245984fd.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/rplanning_doc/icon_384x384.b9b574e4f212f0402bae6942c3b7c29c.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/rplanning_doc/icon_256x256.c010556d1a35a14fe7a9c1140514c4af.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/rplanning_doc/icon_192x192.2a751ac33e708bfcafe83006819e99c3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/rplanning_doc/icon_128x128.f25657b002fd6a12a0c0a0e91c4a8a25.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/rplanning_doc/icon_96x96.e9f4fc8cf9cb31470abb3bddae69a6c1.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "R&Planning",
+  "short_name": "R&Planning",
+  "orientation": "landscape",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Project to organize application documentation",
+  "background_color": "#333333",
+  "theme_color": "#333333"
+}
